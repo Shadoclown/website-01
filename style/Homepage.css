@@ -1,0 +1,30 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* section */
+.section {
+    display: inline-flex;
+    margin-inline: 20px;
+    justify-content: space-around;
+}
+
+.section .tour_cards {
+    display: flex;
+    background-color: green;
+    padding: 10px 20px;
+    width: 45%;
+    border-radius: 10px;
+}
+
+.section .tour_image {
+    min-width: 250px;
+    height: 200px;
+}
+
+.section .tour_detail {
+    margin-inline: 20px;
+}
