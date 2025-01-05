@@ -9,21 +9,22 @@
 <body>
     <?php include("Navigate_bar.php") ?>
 
-    <h2>Recommendation</h2>
+    
     <section class="section">
-        <?php for($i=0; $i<2; $i++): ?>
+        <h2>Recommendation</h2>
+        <?php for($i=0; $i<3; $i++): ?>
             <div class="tour_cards">
                 <div class="tour_image">
-                    <!-- <img src="../image/LOGO.png" alt=""> -->
+                    <img src="../image/LOGO.png" alt="">
                 </div>
 
                 <div class="tour_detail">
-                    <p class="place_name">Name :</p>
-                    <p class="place_detail">Detail :
+                    <p class="place_name"><b>Name</b></p>
+                    <p class="place_detail"><b>Detail</b></br>
                         แมวเดินเล่นในสวนและพบกับนกที่กำลังบินอยู่บนฟ้าในตอนเช้า.
                         แมวเดินเล่นในสวนและพบกับนกที่กำลังบินอยู่บนฟ้าในตอนเช้า.
                         แมวเดินเล่นในสวนและพบกับนกที่กำลังบินอยู่บนฟ้าในตอนเช้า.</p>
-                    <p class="location">Location :</p>
+                    <p class="location"><b>Location</b></p>
                 </div>
             </div>
         <?php endfor; ?>

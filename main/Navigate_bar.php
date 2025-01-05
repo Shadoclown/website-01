@@ -16,7 +16,6 @@
         <div class="navi_button">
             <ul>
                 <li>Home</li>
-                <li>Tours</li>
                 <li class="login">Login</li>
             </ul>
         </div>
@@ -24,6 +23,16 @@
 
     <header class="header">
         <h1>Discover places</h1>
+        <div class="cover_form">
+            <form action="Navigate_bar.php" class="search_form">
+                <label for="search_bar">Search</label>
+                <div class="input_button">
+                    <input type="text" id="search_bar" placeholder="Where do you want to go?">
+                    <button type="submit">Search</button>
+                </div>
+            </form>
+        </div>
     </header>
+
 </body>
 </html>

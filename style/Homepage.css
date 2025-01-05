@@ -7,24 +7,44 @@ html, body {
 
 /* section */
 .section {
-    display: inline-flex;
+    display: flex;
     margin-inline: 20px;
-    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100vh;
+}
+
+.section h2 {
+    margin: 50px 0 20px;
 }
 
 .section .tour_cards {
     display: flex;
-    background-color: green;
+    background-color: #dbf0ff;
     padding: 10px 20px;
-    width: 45%;
+    min-width: 100vh;
     border-radius: 10px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+
+.section .tour_cards:hover {
+    background-color: rgb(145, 206, 249, 0.6);
 }
 
 .section .tour_image {
+    display: flex;
+    justify-content: center;
     min-width: 250px;
     height: 200px;
 }
 
+.section .tour_image img {
+    width: 100%;
+    object-fit: contain;
+}
+
 .section .tour_detail {
+    all: unset;
     margin-inline: 20px;
 }
